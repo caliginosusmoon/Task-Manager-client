@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+TASKPHILE-Task Manager Utility App - Frontend
+Welcome to the Task Manager Utility App frontend! This README provides an overview of the project, instructions for setting up the development environment, and guidelines for contributing.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Project Overview
+Features
+Tech Stack
+Installation
+Running the Application
+Deployment
+Contact
 
-## Available Scripts
 
-In the project directory, you can run:
+Project Overview
+The Task Manager Utility App is a simple and efficient tool to help you manage your tasks and to-dos. The frontend is developed using React, providing a responsive and interactive user experience. The project is deployed on Netlify and can be accessed here.
 
-### `npm start`
+Features
+Task Management: Create, read, update, and delete tasks easily.
+Categorization: Organize tasks by different categories, allowing for better task management and organization.
+Search and Filter: Quickly find tasks using the search functionality or filter tasks by categories, due dates, or status.
+Task Prioritization: Assign priorities to tasks to highlight their importance.
+Due Dates: Set due dates for tasks to ensure you never miss a deadline.
+Responsive Design: The app is fully responsive and works seamlessly on both desktop and mobile devices.
+User Authentication: Secure user authentication allowing users to register and log in to manage their personal tasks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tech Stack
+React: JavaScript library for building user interfaces.
+Redux: State management.
+React Router: Declarative routing.
+Axios: HTTP client for making requests to the backend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Installation
+To set up the development environment, follow these steps:
 
-### `npm test`
+Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+sh
+Copy code
+git clone https://github.com/your-username/task-manager-frontend.git
+cd task-manager-frontend
+Install dependencies:
 
-### `npm run build`
+sh
+Copy code
+npm install
+Running the Application
+To run the application locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+sh
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000 to see the application in action.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployment
+The project is deployed on Netlify. You can visit the live application [here](taskphile.netlify.app).
