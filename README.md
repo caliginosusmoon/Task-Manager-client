@@ -1,6 +1,8 @@
 <h2>TASKPHILE-Task Manager Utility App - Frontend</h2>
 Welcome to the Task Manager Utility App frontend! This README provides an overview of the project, instructions for setting up the development environment, and guidelines for contributing.
 
+Visit the backend code [here](https://github.com/caliginosusmoon/Task-Manager-Server)
+
 <h4>Table of Contents</h4>
 <br>
 Project Overview
@@ -37,4 +39,5 @@ Axios: HTTP client for making requests to the backend.
 
 
 <h4>Deployment</h4>
-The project is deployed on Netlify. You can visit the live application [here](taskphile.netlify.app).
+The project is deployed on Netlify. 
+You can visit the live application : (https://taskphile.netlify.app/)
