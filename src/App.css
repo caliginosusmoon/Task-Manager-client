@@ -177,7 +177,6 @@ button {
 	display: flex;
 	border: 1px solid #282a32;
 	align-items: center;
-	/* background: #282A32; */
 	border-radius: 1.25rem;
 	padding: 0.5rem;
 	gap: 0.5rem;
@@ -187,6 +186,7 @@ button {
 select {
 	background: transparent;
 	border: none;
+	margin-top: 0;
 }
 
 .search-bar {

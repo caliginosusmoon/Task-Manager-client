@@ -144,7 +144,7 @@ const HomePage = () => {
 								onChange={handleDropdown}
 							>
 								<option value="date" name="date">
-									Date2
+									Date
 								</option>
 								<option value="title" name="title">
 									Title
@@ -180,7 +180,8 @@ const HomePage = () => {
 				</div>
 
 				<Tasks
-					tasks={isSearching ? filteredTasks : tasks}
+					tasks={isSearching ? filteredTasks : filteredTasks}
+					key={filteredTasks.length}
 					setRefresh={setRefresh}
 				/>
 				<div className="hompage-button">

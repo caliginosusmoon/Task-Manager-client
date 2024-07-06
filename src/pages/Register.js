@@ -92,7 +92,7 @@ const Register = () => {
 						<span
 							className="action-text"
 							onClick={() => {
-								navigate("/login");
+								navigate("/");
 							}}
 						>
 							{" "}
